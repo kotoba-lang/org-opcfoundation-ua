@@ -105,7 +105,7 @@ ones they raise. **Those keywords are contract.**
 
 ```sh
 clojure -M:test                                                        # JVM
-nbb --classpath "$(clojure -A:cljs -Spath)" scripts/verify-cljs.cljs   # ClojureScript
+nbb --classpath "$(clojure -A:cljs -Spath)" scripts/verify-cljs.cljk   # ClojureScript
 ```
 
 51 tests, 400 assertions, on both runtimes. Coverage: every implemented

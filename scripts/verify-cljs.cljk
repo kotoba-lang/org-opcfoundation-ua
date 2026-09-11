@@ -7,7 +7,7 @@
 ;; signed-vs-unsigned trap and the DataView-vs-Java-primitive split), and
 ;; this is what actually proves both sides agree rather than assuming it.
 ;;
-;;   nbb --classpath "$(clojure -A:cljs -Spath)" scripts/verify-cljs.cljs
+;;   nbb --classpath "$(clojure -A:cljs -Spath)" scripts/verify-cljs.cljk
 (ns verify-cljs
   (:require [clojure.test :as t]
             [opcua.core-test]))
